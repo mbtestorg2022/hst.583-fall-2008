@@ -38,12 +38,57 @@ This book will be supplemented by [readings]({{< baseurl >}}/pages/readings) in 
 Grading Policy
 --------------
 
-| ACTIVITIES | PERCENTAGES |
-| --- | --- |
-| Problem sets | 20% |
-| Lab reports | 30% |
-| Midterm exam | 20% |
-| Final exam | 30% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Problem sets
+{{< tdclose >}}
+{{< tdopen >}}
+20%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab reports
+{{< tdclose >}}
+{{< tdopen >}}
+30%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Midterm exam
+{{< tdclose >}}
+{{< tdopen >}}
+20%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Final exam
+{{< tdclose >}}
+{{< tdopen >}}
+30%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Problem sets are due one week after end of module. Lab reports are due one week after the analysis lab session.
 
@@ -52,39 +97,591 @@ Grades will be reduced by 10% per day until 1 week after due date, after which n
 Calendar{{< anchor "Calendar" >}}{{< /anchor >}}
 ------------------------------------------------
 
-| SES # | LECTURES | LABS | DISCUSSIONS | KEY DATES |
-| --- | --- | --- | --- | --- |
-| {{< td-colspan 5 >}}**Part 1. Overview**{{< /td-colspan >}} |||||
-| 1 |  {{< br >}}{{< br >}} Introduction to the course (Gollub) {{< br >}}{{< br >}} Introduction to fMRI (Rosen) {{< br >}}{{< br >}}  | &nbsp; |
-| {{< td-colspan 5 >}}**Part 2. Functional neural systems**{{< /td-colspan >}} |||||
-| 2 | Neural systems I (Dickerson) |  {{< br >}}{{< br >}} MRI safety training {{< br >}}{{< br >}} Lab 1: introduction to fMRI data and analysis (Bolar) {{< br >}}{{< br >}}  | &nbsp; | Problem set 1 out |
-| 3 | Neural systems II (Dickerson) | &nbsp; | Human subject safety issues (Gollub) | &nbsp; |
-| 4 | Neural systems III (Dickerson) | Lab 2: fMRI acquisition (Whitfield-Gabrieli, Triantafyllou) | &nbsp; | Lab 1 due |
-| 5 | Cerebrovascular anatomy and neural regulation of CNS blood flow (Dickerson) | &nbsp; | The hemo-neural hypothesis (Moore) | &nbsp; |
-| {{< td-colspan 5 >}}**Part 3. Physics of image acquisition**{{< /td-colspan >}} |||||
-| 6 | MRI physics I (Wald) | &nbsp; | Bottom-Up dependent gating of frontal signals in early visual cortex (Vanduffel) | Problem set 1 due |
-| 7 | MRI physics II (Wald) | Lab 3: the life cycle of medical imaging data (Pujol) | &nbsp; | Lab 2 due |
-| 8 | MRI physics III (Wald) | &nbsp; | Response monitoring in Autism Spectrum Disorders (ASD) (Manaoch) | Problem set 2 out |
-| {{< td-colspan 5 >}}**Part 4. Imaging physiology**{{< /td-colspan >}} |||||
-| 9 | Imaging physiology I: brain at the baseline (Bolar) | Lab 4a: MRI physics, part I (Trinatafyllou) | &nbsp; | Lab 3 due |
-| 10 | Imaging physiology II: brain activation (Bolar) | &nbsp; | Visual topography of human intraparietal sulcus (Sommers) | &nbsp; |
-| 11 | Imaging physiology III: BOLD imaging (Bolar) | &nbsp; | Brain correlates of autonomic modulation (Napadow) |  {{< br >}}{{< br >}} Problem set 2 due {{< br >}}{{< br >}} Problem set 3 out {{< br >}}{{< br >}}  |
-| 12 | Imaging physiology IV: BOLD(cont.) and non-BOLD techniques (Bolar) | Lab 5: diffusion weighted imaging workshop (Pujol) | &nbsp; | Lab 4a due |
-| 13 |  {{< br >}}{{< br >}} Quantitative perfusion and diffusion imaging biomarkers (Sorensen) {{< br >}}{{< br >}} Physics of diffusion weighted imaging (Yendiki) {{< br >}}{{< br >}}  | &nbsp; | No discussion due to extra lecture content | &nbsp; |
-| {{< td-colspan 5 >}}**Part 5. Experimental design**{{< /td-colspan >}} |||||
-| 14 | General principles of experimental design (Savoy) | Lab 4b: MRI physics, part II (Triantafyllou) | &nbsp; | Lab 5 due |
-| 15 | Phsychological state variables in imaging (Gabrieli) | &nbsp; | Primer on matrix algebra for fMRI data (Greve) | Problem set 3 due |
-| 16 | Overview of statistical analysis, preprocessing (Greve) | Lab 6a: statistical analysis of fMRI data, part I (Yendiki) | &nbsp; | Lab 4b due |
-| &nbsp; | Mid-Term exam | &nbsp; |
-| {{< td-colspan 5 >}}**Part 6. Statistical analysis**{{< /td-colspan >}} |||||
-| 17 | Stats 2: level 1 (Greve) | &nbsp; | Event-related single-shot volumetric functional magnetic resonance inverse imaging of visual processing (Polimeni) | Problem set 4 out |
-| 18 | Stats 3: level 1 (cont.) (Greve) | Lab 6b: statistical analysis of fMRI data, part II (Yendiki) | &nbsp; | Lab 6a due |
-| 19 | Stats 4: level 2 (Greve) | &nbsp; | How humans make inferences about self and others (Mitchell) | &nbsp; |
-| 20 | Stats 5: correction for multiple measures (Vangel) | Lab 6c: statistical analysis of fMRI data, part III (Yendiki) | &nbsp; | Lab 6b due |
-| 21 |  {{< br >}}{{< br >}} Stats 6: exploratory analysis, PCA, ICA, fuzzy clustering (Vangel) {{< br >}}{{< br >}} Stats 7: causality (Vangel) {{< br >}}{{< br >}}  | &nbsp; | No discussion due to extra lecture content | &nbsp; |
-| {{< td-colspan 5 >}}**Part 7. Structure and functional analysis**{{< /td-colspan >}} |||||
-| 22 | Structural-functional integration (Salat) | Lab 6d: statistical analysis of fMRI data, part IV (Yendiki) | &nbsp; |
-| 23 |  {{< br >}}{{< br >}} Quantitative neuroimaging biomarkers (Helmer) {{< br >}}{{< br >}} Surface-based anatomical analysis (Salat) {{< br >}}{{< br >}}  | &nbsp; | No discussion due to extra lecture content | Problem set 4 due |
-| 24 | Spatial normalization for group analysis (Sabuncu) | Complete work on labs 6c, 6d as needed | &nbsp; | Labs 6c, 6d due |
-| 25 | Granger causality analysis for fMRI (Vangel) | &nbsp; | Neurohumoral hypothesis - redoux (Moore) | &nbsp; |
-| &nbsp; | Final exam | &nbsp; |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+LECTURES
+{{< thclose >}}
+{{< thopen >}}
+LABS
+{{< thclose >}}
+{{< thopen >}}
+DISCUSSIONS
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="5" >}}
+**Part 1. Overview**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Introduction to the course (Gollub)
+
+Introduction to fMRI (Rosen)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="5" >}}
+**Part 2. Functional neural systems**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Neural systems I (Dickerson)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+MRI safety training
+
+Lab 1: introduction to fMRI data and analysis (Bolar)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 1 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Neural systems II (Dickerson)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Human subject safety issues (Gollub)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Neural systems III (Dickerson)
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 2: fMRI acquisition (Whitfield-Gabrieli, Triantafyllou)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 1 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Cerebrovascular anatomy and neural regulation of CNS blood flow (Dickerson)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+The hemo-neural hypothesis (Moore)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="5" >}}
+**Part 3. Physics of image acquisition**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+MRI physics I (Wald)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Bottom-Up dependent gating of frontal signals in early visual cortex (Vanduffel)
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 1 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+MRI physics II (Wald)
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 3: the life cycle of medical imaging data (Pujol)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 2 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+MRI physics III (Wald)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Response monitoring in Autism Spectrum Disorders (ASD) (Manaoch)
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 2 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="5" >}}
+**Part 4. Imaging physiology**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Imaging physiology I: brain at the baseline (Bolar)
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 4a: MRI physics, part I (Trinatafyllou)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 3 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Imaging physiology II: brain activation (Bolar)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Visual topography of human intraparietal sulcus (Sommers)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Imaging physiology III: BOLD imaging (Bolar)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Brain correlates of autonomic modulation (Napadow)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Problem set 2 due
+
+Problem set 3 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Imaging physiology IV: BOLD(cont.) and non-BOLD techniques (Bolar)
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 5: diffusion weighted imaging workshop (Pujol)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 4a due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Quantitative perfusion and diffusion imaging biomarkers (Sorensen)
+
+Physics of diffusion weighted imaging (Yendiki)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+No discussion due to extra lecture content
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="5" >}}
+**Part 5. Experimental design**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+General principles of experimental design (Savoy)
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 4b: MRI physics, part II (Triantafyllou)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 5 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Phsychological state variables in imaging (Gabrieli)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Primer on matrix algebra for fMRI data (Greve)
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 3 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Overview of statistical analysis, preprocessing (Greve)
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 6a: statistical analysis of fMRI data, part I (Yendiki)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 4b due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Mid-Term exam
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="5" >}}
+**Part 6. Statistical analysis**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Stats 2: level 1 (Greve)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Event-related single-shot volumetric functional magnetic resonance inverse imaging of visual processing (Polimeni)
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 4 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Stats 3: level 1 (cont.) (Greve)
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 6b: statistical analysis of fMRI data, part II (Yendiki)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 6a due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Stats 4: level 2 (Greve)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+How humans make inferences about self and others (Mitchell)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Stats 5: correction for multiple measures (Vangel)
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 6c: statistical analysis of fMRI data, part III (Yendiki)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 6b due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Stats 6: exploratory analysis, PCA, ICA, fuzzy clustering (Vangel)
+
+Stats 7: causality (Vangel)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+No discussion due to extra lecture content
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="5" >}}
+**Part 7. Structure and functional analysis**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Structural-functional integration (Salat)
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 6d: statistical analysis of fMRI data, part IV (Yendiki)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Quantitative neuroimaging biomarkers (Helmer)
+
+Surface-based anatomical analysis (Salat)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+No discussion due to extra lecture content
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 4 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Spatial normalization for group analysis (Sabuncu)
+{{< tdclose >}}
+{{< tdopen >}}
+Complete work on labs 6c, 6d as needed
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Labs 6c, 6d due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Granger causality analysis for fMRI (Vangel)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Neurohumoral hypothesis - redoux (Moore)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Final exam
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
