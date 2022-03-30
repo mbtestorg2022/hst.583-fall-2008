@@ -5,6 +5,7 @@ description: Lab assignment on statistical analysis of fMRI data. The purpose of
   with the interaction of paradigm-related and nuisance components of the linear model.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/hst-583-functional-magnetic-resonance-imaging-data-acquisition-and-analysis-fall-2008/fd464a91207445ae863362e4ab6b80ba_lab6b.pdf
 file_type: application/pdf
+parent_uid: 6344a97b-cc11-05ad-4911-175f735ecf18
 resourcetype: Document
 title: 'Lab 6: Statistical Analysis of fMRI Data, Part II'
 uid: fd464a91-2074-45ae-8633-62e4ab6b80ba

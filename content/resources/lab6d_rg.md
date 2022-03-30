@@ -5,6 +5,7 @@ description: Lab assignment on statistical analysis of fMRI data. The purpose of
   collected from multiple subjects performing the same functional paradigm.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/hst-583-functional-magnetic-resonance-imaging-data-acquisition-and-analysis-fall-2008/7d868f9df619f07db9cf6adfcc7bd3bb_lab6d_rg.pdf
 file_type: application/pdf
+parent_uid: 6344a97b-cc11-05ad-4911-175f735ecf18
 resourcetype: Document
 title: 'Lab 6: Statistical Analysis of fMRI Data, Part IV'
 uid: 7d868f9d-f619-f07d-b9cf-6adfcc7bd3bb
